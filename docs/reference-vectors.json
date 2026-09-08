@@ -1,0 +1,457 @@
+{
+  "pipeline": "copycat-linear-v1",
+  "colorSpace": "srgb",
+  "toleranceRGBA8": 1,
+  "vectors": [
+    {
+      "rgba": [0, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 1,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0, 0, 0, 1],
+      "rgba8": [0, 0, 0, 255]
+    },
+    {
+      "rgba": [1, 1, 1, 1],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 1,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [1, 1, 1, 1],
+      "rgba8": [255, 255, 255, 255]
+    },
+    {
+      "rgba": [1, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 1,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [1, 0, 0, 1],
+      "rgba8": [255, 0, 0, 255]
+    },
+    {
+      "rgba": [0.2, 0.4, 0.7, 0.5],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 1,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.2, 0.4, 0.7, 0.5],
+      "rgba8": [51, 102, 179, 128]
+    },
+    {
+      "rgba": [0.5, 0.5, 0.5, 0.25],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 1,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.5, 0.5, 0.5, 0.25],
+      "rgba8": [128, 128, 128, 64]
+    },
+    {
+      "rgba": [0, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 0.9,
+        "temperature": 0.45,
+        "tint": 0,
+        "fade": 0.08,
+        "vignette": 0
+      },
+      "expected": [0.080043701452, 0.080043701452, 0.080043701452, 1],
+      "rgba8": [20, 20, 20, 255]
+    },
+    {
+      "rgba": [1, 1, 1, 1],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 0.9,
+        "temperature": 0.45,
+        "tint": 0,
+        "fade": 0.08,
+        "vignette": 0
+      },
+      "expected": [1, 0.986174869739, 0.945030725672, 1],
+      "rgba8": [255, 251, 241, 255]
+    },
+    {
+      "rgba": [1, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 0.9,
+        "temperature": 0.45,
+        "tint": 0,
+        "fade": 0.08,
+        "vignette": 0
+      },
+      "expected": [0.997194033394, 0.189625531849, 0.189625531849, 1],
+      "rgba8": [254, 48, 48, 255]
+    },
+    {
+      "rgba": [0.2, 0.4, 0.7, 0.5],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 0.9,
+        "temperature": 0.45,
+        "tint": 0,
+        "fade": 0.08,
+        "vignette": 0
+      },
+      "expected": [0.252201985332, 0.402544232669, 0.639719789135, 0.5],
+      "rgba8": [64, 103, 163, 128]
+    },
+    {
+      "rgba": [0.5, 0.5, 0.5, 0.25],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1,
+        "saturation": 0.9,
+        "temperature": 0.45,
+        "tint": 0,
+        "fade": 0.08,
+        "vignette": 0
+      },
+      "expected": [0.521375768607, 0.498906031884, 0.477615123984, 0.25],
+      "rgba8": [133, 127, 122, 64]
+    },
+    {
+      "rgba": [0, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.08,
+        "saturation": 0.85,
+        "temperature": -0.4,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0, 0, 0, 1],
+      "rgba8": [0, 0, 0, 255]
+    },
+    {
+      "rgba": [1, 1, 1, 1],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.08,
+        "saturation": 0.85,
+        "temperature": -0.4,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.990582208388, 1, 1, 1],
+      "rgba8": [253, 255, 255, 255]
+    },
+    {
+      "rgba": [1, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.08,
+        "saturation": 0.85,
+        "temperature": -0.4,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.930904552329, 0.13748668827, 0.13748668827, 1],
+      "rgba8": [237, 35, 35, 255]
+    },
+    {
+      "rgba": [0.2, 0.4, 0.7, 0.5],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.08,
+        "saturation": 0.85,
+        "temperature": -0.4,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.207169272531, 0.395557544817, 0.709036617169, 0.5],
+      "rgba8": [53, 101, 181, 128]
+    },
+    {
+      "rgba": [0.5, 0.5, 0.5, 0.25],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.08,
+        "saturation": 0.85,
+        "temperature": -0.4,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.482462505917, 0.502473587424, 0.523418892186, 0.25],
+      "rgba8": [123, 128, 133, 64]
+    },
+    {
+      "rgba": [0, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 0.88,
+        "saturation": 0.75,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0.32,
+        "vignette": 0
+      },
+      "expected": [0.239947123279, 0.239947123279, 0.239947123279, 1],
+      "rgba8": [61, 61, 61, 255]
+    },
+    {
+      "rgba": [1, 1, 1, 1],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 0.88,
+        "saturation": 0.75,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0.32,
+        "vignette": 0
+      },
+      "expected": [0.899358772034, 0.899358772034, 0.899358772034, 1],
+      "rgba8": [229, 229, 229, 255]
+    },
+    {
+      "rgba": [1, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 0.88,
+        "saturation": 0.75,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0.32,
+        "vignette": 0
+      },
+      "expected": [0.821340447367, 0.324998595509, 0.324998595509, 1],
+      "rgba8": [209, 83, 83, 255]
+    },
+    {
+      "rgba": [0.2, 0.4, 0.7, 0.5],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 0.88,
+        "saturation": 0.75,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0.32,
+        "vignette": 0
+      },
+      "expected": [0.332074008347, 0.417473248453, 0.60136967178, 0.5],
+      "rgba8": [85, 106, 153, 128]
+    },
+    {
+      "rgba": [0.5, 0.5, 0.5, 0.25],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 0.88,
+        "saturation": 0.75,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0.32,
+        "vignette": 0
+      },
+      "expected": [0.490289639485, 0.490289639485, 0.490289639485, 0.25],
+      "rgba8": [125, 125, 125, 64]
+    },
+    {
+      "rgba": [0, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.12,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0, 0, 0, 1],
+      "rgba8": [0, 0, 0, 255]
+    },
+    {
+      "rgba": [1, 1, 1, 1],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.12,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [1, 1, 1, 1],
+      "rgba8": [255, 255, 255, 255]
+    },
+    {
+      "rgba": [1, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.12,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.502660582277, 0.502660582277, 0.502660582277, 1],
+      "rgba8": [128, 128, 128, 255]
+    },
+    {
+      "rgba": [0.2, 0.4, 0.7, 0.5],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.12,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.394345027603, 0.394345027603, 0.394345027603, 0.5],
+      "rgba8": [101, 101, 101, 128]
+    },
+    {
+      "rgba": [0.5, 0.5, 0.5, 0.25],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0,
+        "contrast": 1.12,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "fade": 0,
+        "vignette": 0
+      },
+      "expected": [0.50438904272, 0.50438904272, 0.50438904272, 0.25],
+      "rgba8": [129, 129, 129, 64]
+    },
+    {
+      "rgba": [0, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0.75,
+        "contrast": 1.2,
+        "saturation": 0.8,
+        "temperature": 0.3,
+        "tint": -0.2,
+        "fade": 0.15,
+        "vignette": 0.65
+      },
+      "expected": [0, 0, 0, 1],
+      "rgba8": [0, 0, 0, 255]
+    },
+    {
+      "rgba": [1, 1, 1, 1],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0.75,
+        "contrast": 1.2,
+        "saturation": 0.8,
+        "temperature": 0.3,
+        "tint": -0.2,
+        "fade": 0.15,
+        "vignette": 0.65
+      },
+      "expected": [1, 1, 1, 1],
+      "rgba8": [255, 255, 255, 255]
+    },
+    {
+      "rgba": [1, 0, 0, 1],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0.75,
+        "contrast": 1.2,
+        "saturation": 0.8,
+        "temperature": 0.3,
+        "tint": -0.2,
+        "fade": 0.15,
+        "vignette": 0.65
+      },
+      "expected": [0.969950400911, 0.210194395023, 0.210194395023, 1],
+      "rgba8": [247, 54, 54, 255]
+    },
+    {
+      "rgba": [0.2, 0.4, 0.7, 0.5],
+      "uv": [0.5, 0.5],
+      "settings": {
+        "exposure": 0.75,
+        "contrast": 1.2,
+        "saturation": 0.8,
+        "temperature": 0.3,
+        "tint": -0.2,
+        "fade": 0.15,
+        "vignette": 0.65
+      },
+      "expected": [0.319051859771, 0.524891124814, 0.821108734566, 0.5],
+      "rgba8": [81, 134, 209, 128]
+    },
+    {
+      "rgba": [0.5, 0.5, 0.5, 0.25],
+      "uv": [0.1, 0.2],
+      "settings": {
+        "exposure": 0.75,
+        "contrast": 1.2,
+        "saturation": 0.8,
+        "temperature": 0.3,
+        "tint": -0.2,
+        "fade": 0.15,
+        "vignette": 0.65
+      },
+      "expected": [0.514579390798, 0.512505925487, 0.486532853884, 0.25],
+      "rgba8": [131, 131, 124, 64]
+    }
+  ]
+}
